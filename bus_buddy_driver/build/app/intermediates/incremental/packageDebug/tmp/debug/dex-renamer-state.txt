@@ -1,0 +1,4 @@
+#Sat Oct 14 10:52:40 NPT 2023
+base.0=/Users/suprimpoudel/Desktop/bus_buddy_driver/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

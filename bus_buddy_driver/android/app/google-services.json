@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "773532356565",
+    "project_id": "bus-buddy-14320",
+    "storage_bucket": "bus-buddy-14320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773532356565:android:e0bd70682c2a5354c9f75c",
+        "android_client_info": {
+          "package_name": "com.np.suprimpoudel.bus_buddy_driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCny4YcA3BX4qz_cZ_j9zTbjvhaIaFqJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773532356565:android:b42a2b84a0671373c9f75c",
+        "android_client_info": {
+          "package_name": "com.np.suprimpoudel.bus_buddy_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCny4YcA3BX4qz_cZ_j9zTbjvhaIaFqJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

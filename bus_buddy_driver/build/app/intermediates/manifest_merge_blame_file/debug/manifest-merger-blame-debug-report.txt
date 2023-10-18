@@ -1,0 +1,404 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.np.suprimpoudel.bus_buddy_driver"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:2:5-67
+15-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:2:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:3:5-79
+16-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:3:22-76
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:4:5-85
+17-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:4:22-82
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:5:5-81
+18-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:5:22-78
+19
+20    <uses-feature android:name="android.hardware.location.gps" />
+20-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:7:5-66
+20-->/Users/suprimpoudel/Desktop/bus_buddy_driver/android/app/src/main/AndroidManifest.xml:7:19-63
+21
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[:firebase_analytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+22-->[:firebase_analytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+23-->[:firebase_analytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-68
+23-->[:firebase_analytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-65
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-77
+24-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-74
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:26:22-79
+26    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+26-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/bae83935b08e9e7740afaa1136fb56b0/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+26-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/bae83935b08e9e7740afaa1136fb56b0/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+28
+29    <permission
+29-->[androidx.core:core:1.9.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b54acb7c29cf628a882661e98481135e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+30        android:name="com.np.suprimpoudel.bus_buddy_driver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.9.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b54acb7c29cf628a882661e98481135e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.9.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b54acb7c29cf628a882661e98481135e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.np.suprimpoudel.bus_buddy_driver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.9.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b54acb7c29cf628a882661e98481135e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.9.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b54acb7c29cf628a882661e98481135e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+34
+35    <application
+36        android:name="android.app.Application"
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.9.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b54acb7c29cf628a882661e98481135e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+40        android:label="bus_buddy_driver" >
+41        <activity
+42            android:name="com.np.suprimpoudel.bus_buddy_driver.MainActivity"
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44            android:exported="true"
+45            android:hardwareAccelerated="true"
+46            android:launchMode="singleTop"
+47            android:theme="@style/LaunchTheme"
+48            android:windowSoftInputMode="adjustResize" >
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+57                android:name="io.flutter.embedding.android.NormalTheme"
+58                android:resource="@style/NormalTheme" />
+59
+60            <intent-filter>
+61                <action android:name="android.intent.action.MAIN" />
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+71            android:name="flutterEmbedding"
+72            android:value="2" />
+73
+74        <service
+74-->[:firebase_crashlytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:firebase_crashlytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/f3791c5dcbf74469b90148d862ef62b7/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-crashlytics:18.4.3] /Users/suprimpoudel/.gradle/caches/transforms-3/d971f5bb0f1d8c6cc47447caf87dcab9/transformed/jetified-firebase-crashlytics-18.4.3/AndroidManifest.xml:14:13-37
+78            <meta-data
+78-->[:firebase_crashlytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+79-->[:firebase_crashlytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-130
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_crashlytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_analytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+82-->[:firebase_analytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-128
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_analytics] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-82
+84            <meta-data
+84-->[:firebase_database] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+85-->[:firebase_database] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-127
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_database] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[:firebase_storage] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+88-->[:firebase_storage] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_storage] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-38:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+91-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:17-128
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-82
+93            <meta-data
+93-->[:firebase_core] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+94-->[:firebase_core] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_core] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-crashlytics:18.4.3] /Users/suprimpoudel/.gradle/caches/transforms-3/d971f5bb0f1d8c6cc47447caf87dcab9/transformed/jetified-firebase-crashlytics-18.4.3/AndroidManifest.xml:15:13-17:85
+97                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+97-->[com.google.firebase:firebase-crashlytics:18.4.3] /Users/suprimpoudel/.gradle/caches/transforms-3/d971f5bb0f1d8c6cc47447caf87dcab9/transformed/jetified-firebase-crashlytics-18.4.3/AndroidManifest.xml:16:17-115
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-crashlytics:18.4.3] /Users/suprimpoudel/.gradle/caches/transforms-3/d971f5bb0f1d8c6cc47447caf87dcab9/transformed/jetified-firebase-crashlytics-18.4.3/AndroidManifest.xml:17:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-sessions:1.0.2] /Users/suprimpoudel/.gradle/caches/transforms-3/5639b1c168cbf8b5f805834ec50ed570/transformed/jetified-firebase-sessions-1.0.2/AndroidManifest.xml:25:13-27:85
+100                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+100-->[com.google.firebase:firebase-sessions:1.0.2] /Users/suprimpoudel/.gradle/caches/transforms-3/5639b1c168cbf8b5f805834ec50ed570/transformed/jetified-firebase-sessions-1.0.2/AndroidManifest.xml:26:17-117
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-sessions:1.0.2] /Users/suprimpoudel/.gradle/caches/transforms-3/5639b1c168cbf8b5f805834ec50ed570/transformed/jetified-firebase-sessions-1.0.2/AndroidManifest.xml:27:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:53:13-55:85
+103                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+103-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:54:17-119
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:55:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/suprimpoudel/.gradle/caches/transforms-3/0e03100e50347484e9d2edeab04b67a1/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+106                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+106-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/suprimpoudel/.gradle/caches/transforms-3/0e03100e50347484e9d2edeab04b67a1/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/suprimpoudel/.gradle/caches/transforms-3/0e03100e50347484e9d2edeab04b67a1/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/41f416518a69b9e1589e633190fe7a4b/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:14:13-16:85
+109                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+109-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/41f416518a69b9e1589e633190fe7a4b/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:15:17-113
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/41f416518a69b9e1589e633190fe7a4b/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:16:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-iid:21.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/83bec834d3b587d5628e9e4da6419fa4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+112                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+112-->[com.google.firebase:firebase-iid:21.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/83bec834d3b587d5628e9e4da6419fa4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-iid:21.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/83bec834d3b587d5628e9e4da6419fa4/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-storage:20.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/ef49ade8481c57d8240399e78c7e64f8/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+115                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+115-->[com.google.firebase:firebase-storage:20.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/ef49ade8481c57d8240399e78c7e64f8/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-storage:20.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/ef49ade8481c57d8240399e78c7e64f8/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-database:20.2.2] /Users/suprimpoudel/.gradle/caches/transforms-3/0c336db3345d6998758dc954771849cd/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+118                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+118-->[com.google.firebase:firebase-database:20.2.2] /Users/suprimpoudel/.gradle/caches/transforms-3/0c336db3345d6998758dc954771849cd/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-database:20.2.2] /Users/suprimpoudel/.gradle/caches/transforms-3/0c336db3345d6998758dc954771849cd/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+120            <meta-data
+120-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/bae83935b08e9e7740afaa1136fb56b0/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+121-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/bae83935b08e9e7740afaa1136fb56b0/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/bae83935b08e9e7740afaa1136fb56b0/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-installations:17.1.4] /Users/suprimpoudel/.gradle/caches/transforms-3/207490a18042697118f79ed43bbe8c49/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:15:13-17:85
+124                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+124-->[com.google.firebase:firebase-installations:17.1.4] /Users/suprimpoudel/.gradle/caches/transforms-3/207490a18042697118f79ed43bbe8c49/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:16:17-127
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-installations:17.1.4] /Users/suprimpoudel/.gradle/caches/transforms-3/207490a18042697118f79ed43bbe8c49/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:17:17-82
+126        </service>
+127        <service
+127-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-17:72
+128            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+128-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-107
+129            android:exported="false"
+129-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+130            android:permission="android.permission.BIND_JOB_SERVICE" />
+130-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-69
+131        <service
+131-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-24:19
+132            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+132-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-97
+133            android:exported="false" >
+133-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-37
+134            <intent-filter>
+134-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+135-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-75
+136            </intent-filter>
+137        </service>
+138
+139        <receiver
+139-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-33:20
+140            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+140-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-98
+141            android:exported="true"
+141-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-36
+142            android:permission="com.google.android.c2dm.permission.SEND" >
+142-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-73
+143            <intent-filter>
+143-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:29
+144                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+144-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-81
+144-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-78
+145            </intent-filter>
+146        </receiver>
+147
+148        <provider
+148-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-45:38
+149            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+149-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-102
+150            android:authorities="com.np.suprimpoudel.bus_buddy_driver.flutterfirebasemessaginginitprovider"
+150-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-88
+151            android:exported="false"
+151-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-37
+152            android:initOrder="99" />
+152-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-35
+153
+154        <service
+154-->[:geolocator_android] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:56
+155            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+155-->[:geolocator_android] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-77
+156            android:enabled="true"
+156-->[:geolocator_android] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-35
+157            android:exported="false"
+157-->[:geolocator_android] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+158            android:foregroundServiceType="location" />
+158-->[:geolocator_android] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-53
+159
+160        <receiver
+160-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:29:9-36:20
+161            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+161-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:30:13-78
+162            android:exported="true"
+162-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:31:13-36
+163            android:permission="com.google.android.c2dm.permission.SEND" >
+163-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:32:13-73
+164            <intent-filter>
+164-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:29
+165                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+165-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-81
+165-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-78
+166            </intent-filter>
+167        </receiver>
+168        <!--
+169             FirebaseMessagingService performs security checks at runtime,
+170             but set to not exported to explicitly avoid allowing another app to call it.
+171        -->
+172        <service
+172-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:42:9-49:19
+173            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+173-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:43:13-82
+174            android:directBootAware="true"
+174-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:44:13-43
+175            android:exported="false" >
+175-->[com.google.firebase:firebase-messaging:23.2.1] /Users/suprimpoudel/.gradle/caches/transforms-3/fa9b4883c7ec6a91ba6e179c3c4e7580/transformed/jetified-firebase-messaging-23.2.1/AndroidManifest.xml:45:13-37
+176            <intent-filter android:priority="-500" >
+176-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:29
+177                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+177-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+177-->[:firebase_messaging] /Users/suprimpoudel/Desktop/bus_buddy_driver/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-75
+178            </intent-filter>
+179        </service>
+180        <service
+180-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/30245b17f7ba47ec8519ec80aefeb33e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+181            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+181-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/30245b17f7ba47ec8519ec80aefeb33e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+182            android:exported="false" >
+182-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/30245b17f7ba47ec8519ec80aefeb33e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+183            <meta-data
+183-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/30245b17f7ba47ec8519ec80aefeb33e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+184                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+184-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/30245b17f7ba47ec8519ec80aefeb33e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+185                android:value="cct" />
+185-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/30245b17f7ba47ec8519ec80aefeb33e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+186        </service>
+187
+188        <uses-library
+188-->[androidx.window:window:1.0.0-beta04] /Users/suprimpoudel/.gradle/caches/transforms-3/e20fb39097bf0248ffafa9d3a2a7fa30/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+189            android:name="androidx.window.extensions"
+189-->[androidx.window:window:1.0.0-beta04] /Users/suprimpoudel/.gradle/caches/transforms-3/e20fb39097bf0248ffafa9d3a2a7fa30/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+190            android:required="false" />
+190-->[androidx.window:window:1.0.0-beta04] /Users/suprimpoudel/.gradle/caches/transforms-3/e20fb39097bf0248ffafa9d3a2a7fa30/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+191        <uses-library
+191-->[androidx.window:window:1.0.0-beta04] /Users/suprimpoudel/.gradle/caches/transforms-3/e20fb39097bf0248ffafa9d3a2a7fa30/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+192            android:name="androidx.window.sidecar"
+192-->[androidx.window:window:1.0.0-beta04] /Users/suprimpoudel/.gradle/caches/transforms-3/e20fb39097bf0248ffafa9d3a2a7fa30/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+193            android:required="false" />
+193-->[androidx.window:window:1.0.0-beta04] /Users/suprimpoudel/.gradle/caches/transforms-3/e20fb39097bf0248ffafa9d3a2a7fa30/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+194
+195        <provider
+195-->[com.google.firebase:firebase-common:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/f3791c5dcbf74469b90148d862ef62b7/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+196            android:name="com.google.firebase.provider.FirebaseInitProvider"
+196-->[com.google.firebase:firebase-common:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/f3791c5dcbf74469b90148d862ef62b7/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+197            android:authorities="com.np.suprimpoudel.bus_buddy_driver.firebaseinitprovider"
+197-->[com.google.firebase:firebase-common:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/f3791c5dcbf74469b90148d862ef62b7/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+198            android:directBootAware="true"
+198-->[com.google.firebase:firebase-common:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/f3791c5dcbf74469b90148d862ef62b7/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+199            android:exported="false"
+199-->[com.google.firebase:firebase-common:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/f3791c5dcbf74469b90148d862ef62b7/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+200            android:initOrder="100" />
+200-->[com.google.firebase:firebase-common:20.3.3] /Users/suprimpoudel/.gradle/caches/transforms-3/f3791c5dcbf74469b90148d862ef62b7/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+201
+202        <activity
+202-->[com.google.android.gms:play-services-base:18.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b8b83a9a1b86a5743909b82ae7bc1260/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+203            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+203-->[com.google.android.gms:play-services-base:18.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b8b83a9a1b86a5743909b82ae7bc1260/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-base:18.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b8b83a9a1b86a5743909b82ae7bc1260/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-base:18.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/b8b83a9a1b86a5743909b82ae7bc1260/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+206
+207        <receiver
+207-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+208            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+208-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+210            android:exported="false" >
+210-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+211        </receiver>
+212
+213        <service
+213-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+214            android:name="com.google.android.gms.measurement.AppMeasurementService"
+214-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+215            android:enabled="true"
+215-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+216            android:exported="false" />
+216-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+217        <service
+217-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+218            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+218-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+219            android:enabled="true"
+219-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+221            android:permission="android.permission.BIND_JOB_SERVICE" />
+221-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/suprimpoudel/.gradle/caches/transforms-3/40a92b1de7e1557e22a8cbea9b7c0dca/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+222
+223        <meta-data
+223-->[com.google.android.gms:play-services-basement:18.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/f696888fa2992af5230bf771031dd91c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+224            android:name="com.google.android.gms.version"
+224-->[com.google.android.gms:play-services-basement:18.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/f696888fa2992af5230bf771031dd91c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+225            android:value="@integer/google_play_services_version" />
+225-->[com.google.android.gms:play-services-basement:18.1.0] /Users/suprimpoudel/.gradle/caches/transforms-3/f696888fa2992af5230bf771031dd91c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+226
+227        <service
+227-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/2f906f9c3afc369a8d45f032d47f00c9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+228            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+228-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/2f906f9c3afc369a8d45f032d47f00c9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+229            android:exported="false"
+229-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/2f906f9c3afc369a8d45f032d47f00c9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+230            android:permission="android.permission.BIND_JOB_SERVICE" >
+230-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/2f906f9c3afc369a8d45f032d47f00c9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+231        </service>
+232
+233        <receiver
+233-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/2f906f9c3afc369a8d45f032d47f00c9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+234-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/2f906f9c3afc369a8d45f032d47f00c9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+235            android:exported="false" />
+235-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/suprimpoudel/.gradle/caches/transforms-3/2f906f9c3afc369a8d45f032d47f00c9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+236    </application>
+237
+238</manifest>
